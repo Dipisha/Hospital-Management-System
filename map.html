@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+<head>
+  
+<title>Map and Directions</title>
+
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="healthtips.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-database.js"></script>
+</head>
+<body>
+<br>
+<div class = "marque">
+    <marquee class="marq" bgcolor = "white" direction = "left" loop="" vspace="10px">
+        <div class="covid">Covid 19 Resources: <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwi2-K6O877wAhUZJCsKHYHiDggYABAAGgJzZg&ae=2&sig=AOD64_0gJH9OJvEdmYPG9Dc0zS0-rUMnmw&q&adurl&ved=2ahUKEwiX8p-O877wAhW1heYKHVb1AcoQ0Qx6BAgCEAE/"style="color:#20575C">WHO</a>, <a href="https://www.covidresourcesindia.com/" style="color:#20575C">Covid Resources India</a>, <a href=" https://www.cowin.gov.in/" style="color:#20575C">Vaccination</a></div>       
+    </marquee>
+    </div>
+<header class="main_menu home_menu">
+  
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-12">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="home.html"> <img src="img/logo1.png" alt="logo"> </a>
+        
+<div class="collapse navbar-collapse main-menu-item justify-content-center" id="navbarSupportedContent">
+<ul class="navbar-nav align-items-center">
+<li class="nav-item active">
+<a class="nav-link" href="home.html"><strong>Home</strong></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="home.html#about"><strong>About Us</strong></a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="home.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<strong>Departments</strong>
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="Cardiology.html">Cardiology</a>
+<a class="dropdown-item" href="DentalCare.html">Dental Care</a>
+<a class="dropdown-item" href="Dermatology.html">Dermatology</a>
+<a class="dropdown-item" href="ENT.html">ENT</a>
+<a class="dropdown-item" href="Gynaecology.html">Gynaecology</a>
+<a class="dropdown-item" href="Neurology.html">Neurology</a>
+<a class="dropdown-item" href="Nephrology.html">Nephrology</a>
+<a class="dropdown-item" href="Orthopedic.html">Orthopedic</a>
+<a class="dropdown-item" href="Oncology.html">Oncology</a>
+
+</div>
+
+</li>
+<li class="nav-item"><a class="nav-link" href="bloodbank.html"><strong>Blood Bank</strong></a></li>
+<li class="nav-item"><a class="nav-link" href="pathology.html"><strong>Pathology</strong></a></li>
+<li class="nav-item"><a class="nav-link" href="home.html#appointment_form"><strong>Appointment</strong></a></li>
+<li class="nav-item"><a class="nav-link" href="healthtips.html"><strong>Health Tips</strong></a></li>
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="home.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<strong>Contact</strong>
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="phonedirectory.html">Phone Directory</a>
+<a class="dropdown-item" href="map.html">Maps and Directions</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="home.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <strong>Login</strong>
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="adminlogin.html">Admin</a>
+<a class="dropdown-item" href="patientlogin.html">Patient</a>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</header>
+<br>
+
+<h2>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMap and Directions</h2>
+<h4>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspUdaipur City Hospital is located in Manwakhera, NH-8 Bypass and is easily accessible by all modes of transportation.</h4>
+<br>
+<!-- Map  -->
+<div class="map_box">
+<div class="mapouter">
+	<div class="gmap_canvas">
+		<iframe width="1080" height="463" id="gmap_canvas" src="https://maps.google.com/maps?q=Hiranmagri%20Extension,%20Manwakhera%20NH-8%20Bypass,%20Near%20Eklingpura%20Chouraha,%20Rajasthan%20313001&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+		<a href="https://www.whatismyip-address.com"></a>
+		<br>
+		<style>
+		.mapouter
+		{
+		    position:relative;
+		    text-align:right;
+	        height:463px;
+	        width:1080px;
+	       
+        }
+        </style>
+        <a href="https://www.embedgooglemap.net">add google maps html</a>
+        <style>.gmap_canvas 
+    {
+    overflow:hidden;background:none!important;
+height:463px;width:1080px;
+}
+</style>
+</div>
+</div>
+</div>
+<!-- Map ends here -->
+
+<!--Map Listing-->
+<div class="mlisting">
+<button class="collapsible_ml">From Airport</button>
+<div class="content">
+	<h5>Maharana Pratap Airport: NH 76, Dabok</h5>
+	<ul class="map_listing"> 
+<li><span>1)</span><p>Head west</p></li>
+<li><span>2)</span><p>At the roundabout, take the 2nd exit(0.3 km) <br>At the roundabout, take the 2nd exit(0.2 km)</p></li>
+<li><span>3)</span><p>At the roundabout, take the 1st exit(0.2 km) <br> Turn right at Fire Station Udaipur Airport</p></li>
+<li><span>4)</span><p>Turn left	(0.3 km)<br>Turn left(0.9 km)<br>Turn left(2.1 km)<br>Sharp left<br>Pass by WINE SHOP JAI EDANA MA DINU PATEL (on the left)(1.0 km)</p></li>
+<li><span>5)</span><p>Turn right at the gas station toward NH 27/NH 48</p></li>
+<li><span>6)</span><p>Turn left onto NH 27/NH 48<br>Continue to follow NH 48<br>Pass by Ghanoli Bheru Bhawani Motor Body Workshop (on the left)
+</p></li>
+<li><span>7)</span><p>Turn left at Ajmari Shai Nashta to stay on NH 48<br>Pass by chandel flour mill (on the right in 2.2 km)</p></li>
+<li><span>8)</span><p>Turn left at Bombay Vadapav<br>Destination will be on the left</p></li>
+ </ul>
+ 
+</div>
+
+<button class="collapsible_ml">From Railway Station</button>
+<div class="content">
+	<h5>Udaipur City Railway Station: 8, Station Rd, Jawahar Nagar, Udaipur, Rajasthan 305001</h5>
+  <ul class="map_listing"> 
+<li><span>1)</span><p>Head south toward City Station Rd/Railway Station Rd/Sardar Patel Marg<br>Pass by SBM Toilet (on the right)</p></li>
+<li><span>2)</span><p>Turn left at Udaipur Sightseeing onto City Station Rd/Railway Station Rd/Sardar Patel Marg/RJ SH 32<br>Continue to follow RJ SH 32<br>
+Pass by United Engineering Works (on the left)</p></li>
+<li><span>3)</span><p>Turn left at Reliance Trends, Paras Udaipur to stay on RJ SH 32<br>Pass by Pandit Restaurant (on the left)</p></li>
+<li><span>4)</span><p>At the roundabout, take the 3rd exit onto Savina Main Rd<br>
+Pass by NIVYA ASSOCIATE (on the right) 0.8 km<br>At the roundabout, take the 2nd exit<br>
+Pass by RJ 27 TEA STALL (on the left) 1.2 km</p></li>
+<li><span>5)</span><p>Turn right at shri purnashanker ji marbal stone<br>
+Pass by Bliss (on the left) 0.5 km <br>Turn right at Anguri Vijay Bhawan (Tyagi Family House)<br>
+Pass by Jagannath Dham (on the left) 0.1 km<br>Turn right at Mukesh House</p></li>
+<li><span>6)</span><p>Turn left at An Albergue Home Stay<br>Pass by Pooja Global Home Decor (on the left) 0.2 km <br>Turn left onto NH 48<br>Pass by State Bank of India (on the right in 450 m) 0.9 km</p></li>
+<li><span>7)</span><p>Turn right at Bombay Vadapav<br>Destination will be on the left</p></li>
+
+ </ul>
+</div>
+<button class="collapsible_ml">From Bus Station</button>
+<div class="content">
+	<h5>Udaipur City Bus Station: Roadways Bus Stand Udaipole, Central Area, Udaipur, Rajasthan 313001</h5>
+  <ul class="map_listing"> 
+<li><span>1)</span><p>Head northeast toward Udaipole Circle<br>Pass by Mateshwari Cold Drinks Center (on the left)</p></li>
+<li><span>2)</span><p>At Udaipole Cir, take the 1st exit<br>Pass by MEWAR BILLING AND POS MACHINE (on the right)
+</p></li>
+<li><span>3)</span><p>Turn right at Pratapgarh Chaat Wala onto Police Line Rd<br>Pass by Anti Smuggling Office (on the left)</p></li>
+<li><span>4)</span><p>Turn right at Laxmi Chinese onto Tekri Rd: Pass by Classic Auto Electric (on the right)</p></li>
+<li><span>5)</span><p>At the roundabout, take the 2nd exit onto Savina Main Rd<br>Pass by कृषिमंडी नास्ता कोर्नर (on the right)</p></li>
+<li><span>6)</span><p>At the roundabout, take the 2nd exit: Pass by RJ 27 TEA STALL (on the left)</p></li>
+<li><span>7)</span><p>Turn right at Shri Purnashanker Ji Marble Stone:Pass by Bliss (on the left)</p></li>
+<li><span>8)</span><p>Turn right at Anguri Vijay Bhawan (Tyagi Family House)<br>Pass by Jagannath Dham (on the left)</p></li>
+<li><span>9)</span><p>Turn right at Mukesh House</p></li>
+<li><span>10)</span><p>Turn left at An Albergue Home Stay<br>Pass by Pooja Global Home Decor (on the left)</p></li>
+<li><span>11)</span><p>Turn left onto NH 48<br>Pass by State Bank of India (on the right in 450 m)</p></li>
+<li><span>12)</span><p>Turn right at Bombay Vadapav<br>Destination will be on the left</p></li>
+ </ul>
+</div>
+</div>
+<script type="text/javascript">
+var coll = document.getElementsByClassName("collapsible_ml");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+<!--Listing ends here -->
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<!-- Footer Area-->
+<footer id="footer" class="footer-1">
+<div class="main-footer widgets-dark typo-light">
+<div class="container">
+<div class="row">
+ <div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget subscribe no-box">
+<h5 class="widget-title" style="color: white">Udaipur City Hospital<span></span></h5>
+<p style="color:#EAA335">UCH is a leading multispecialty hospital, considered as the best hospital in Udaipur, India.
+ It has been a beacon of light for the suffering for over 50 years.</p>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget subscribe no-box">
+<h5 class="widget-title" style="color: white">Address<span></span></h5>
+<p style="color:#EAA335">Hiranmagri Extension, Manwakhera NH-8 Bypass, Near Eklingpura Chouraha, Rajasthan 313001 </p>
+</div>
+</div>
+<div class="col-xs-12 col-sm-3 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title" style="color: white">Quick Links<span></span></h5>
+<ul class="thumbnail-widget">
+<li>
+<li>
+<div class="thumb-content"><a style="color: #EAA335"  href="#.">Blood Bank</a></div> 
+</li>
+<li>
+<div class="thumb-content"><a style="color: #EAA335" href="pathology.html">Pathology</a></div> 
+</li>
+<li>
+<div class="thumb-content"><a style="color: #EAA335" href="healthtips.html">Health Tips</a></div>  
+</li>
+<li>
+</ul>
+</div>
+</div>
+<div class="col-xs-12 col-sm-3 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title" style="color: white">Contact Us<span></span></h5><p><a  style="color: #EAA335" href="mailto:info@uch.com" title="glorythemes">info@domain.com</a><br>
+<a  style="color: #EAA335" href="" title="glorythemes">+91-294-2500000-06</a><br>
+<a  style="color: #EAA335" href="" title="glorythemes">+91-294-2500007</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<footer>
+ <p style="color:white;" >
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </p>
+</footer>
+<!-- Footer Area ends here-->
+
+
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

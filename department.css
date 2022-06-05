@@ -1,0 +1,53 @@
+.main{
+  
+}
+.S8{
+  margin-top: 55px;
+  margin-bottom: 155px;
+}
+
+.card4{
+  position:relative;
+  max-width: 300px;
+  height:215px;
+  background:#20575C;
+  margin-left:2px;
+  margin-right:2px;
+  margin-top: 30px;
+  padding:20px 15px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5); 
+  display:inline-block;
+
+
+}
+.card4 .imgbx{
+  position: relative;
+  width: 260px;
+  height:180px;
+  top: -60px;
+  left: 20px;
+  z-index:1;
+
+  box-shadow: 0 5px 20px rgba(0,0,0,0.0);
+
+}
+.card4.imgbx img{
+  max-width:100%;
+  border-radius:4px;
+}
+.card4:hover
+{
+  height: 580px;
+}
+.card4 .content4{
+  margin-top: 0px;
+  visibility:hidden;
+  opacity:0;
+  transition: 0.3s ease-in-out;
+}
+.card4:hover .content4{
+  visibility:visible;
+  opacity:1;
+  margin-top:0px;
+  transition-delay:0.3s;

@@ -1,0 +1,181 @@
+ <!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="login_style.css">	
+
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-firestore.js"></script>
+
+<title>Admin Page</title>
+
+<style type="text/css">
+  .dbutton{
+  width:100%;
+  padding:1em;
+  border:1px solid #b6f0e6;
+  background:#20575C;
+  color:#fff;
+  border:0;
+  text-transform: uppercase;
+  }
+
+  .center{
+  	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+  .alert{
+  text-align: center;
+  padding:10px;
+  background:#79c879;
+  color:#fff;
+  margin-bottom:10px;
+  display:none;
+}
+  }
+</style>
+
+</head>
+<body>
+	<img src="img/logo1.png" class="center">
+	<h3 style="text-align: center">
+		Udaipur City Hospital
+	</h3>
+
+	<h1>Welcome Admin</h1>
+	
+	<p id="user_para">You're currently logged in.</p>
+ <button class="pbutton" onclick="logout()">Logout</button><br>
+
+ <!--Form-->
+ <section id="appoint">
+<div class="container">
+<div class="row justify-content-center text-center">
+<div class="col-xl-12">
+ <div class="department_content">
+<div class="row justify-content-center">
+<div class="col-xl-12 ">
+	 <h2><b>Enter Patient Details</b></h2>
+	<br>
+    <div class="wrapper animated bounceInUp">
+      <div class="company-info">
+      	<br><br><br><br><br><br><br><br><br>
+	  <img src="img/patientdetails.png">
+        
+      </div>
+
+      <div class="contact">
+        <h3>Patient Details</h3>
+<form id="patientform">
+           <p>
+           	<label>Name</label>
+            <input type="text" name="name" id="name1" >
+          </p>
+          <p>
+            <label>City</label>
+            <input type="text" name="city" id="city1">
+          </p>
+         
+          <p>
+      
+            <label> Blood Group</label>
+      <br>
+            <select name="blood" id="blood1">
+      <option value="A+">A+</option>
+      <option value="A-">A-</option>
+      <option value="B+">B+</option>
+      <option value="B-">B-</option>
+      <option value="AB+">AB+</option>
+      <option value="AB-">AB-</option>
+      <option value="O+">O+</option>
+      <option value="O-">O-</option>
+      </select>
+          </p>
+          <p>
+		  
+            <label>Select Department</label>
+			<br>
+            <select name="docs" id="dept1">
+			<option value="Cardiology">Cardiology</option>
+			<option value="Dental Care">Dental Care</option>
+			<option value="Dermatology">Dermatology</option>
+			<option value="Gynaecology">Gynaecology</option>
+			<option value="Neurology">Neurology</option>
+			<option value="Nephrology">Nephrology</option>
+			<option value="Orthopedic">Orthopedic</option>
+			<option value="Oncology">Oncology</option>
+			<option value="Others">Others</option>
+			</select>
+          </p>
+          <p>
+           	<label>Doctor</label>
+            <input type="text" name="name" id="doc1" >
+          </p>
+          <p>
+           	<label>Disease</label>
+            <input type="text" name="name" id="disease1" >
+          </p>
+          
+           <p>
+            <label>Phone Number</label>
+            <input type="text" name="phone" id="phone1" >
+          </p>
+          <p>
+           	<label>Email Id</label>
+            <input type="text" name="name" id="email1" >
+          </p>
+   
+           	<p>
+            <label>Admission Date</label>
+            <input type="date" name="appointmentdate" id="date1">
+  
+          </p>
+           <p>
+           	<label>Bill Amount</label>
+            <input type="text" name="name" id="bill" >
+          </p>
+          <p class="full">
+            <label>Medical History</label>
+            <textarea name="message" rows="5" id="history"></textarea>
+          </p>
+
+ </form> 
+           <div class="alert">Record created.</div>
+               <button class="dbutton"  onclick="submitdata()" >Submit</button>
+             </div>
+          
+        </div>
+   </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+
+<!--Form ends here-->
+
+          
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyABb9KUGHxDaqtKrQ9OpmERCCVO_l-IyDw",
+    authDomain: "uchhospital-d8fcb.firebaseapp.com",
+    databaseURL: "https://uchhospital-d8fcb-default-rtdb.firebaseio.com",
+    projectId: "uchhospital-d8fcb",
+    storageBucket: "uchhospital-d8fcb.appspot.com",
+    messagingSenderId: "123961062939",
+    appId: "1:123961062939:web:ef40237916b4c825532abe"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+<script src="adminpage.js"></script>
+</body>
+</html>

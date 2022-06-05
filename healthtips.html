@@ -1,0 +1,569 @@
+<!doctype html>
+<html>
+<head>
+	
+<title>Health Tips</title>
+
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="healthtips.css">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-database.js"></script>
+</head>
+<body>
+<br>
+<div class = "marque">
+    <marquee class="marq" bgcolor = "white" direction = "left" loop="" vspace="10px">
+        <div class="covid">Covid 19 Resources: <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwi2-K6O877wAhUZJCsKHYHiDggYABAAGgJzZg&ae=2&sig=AOD64_0gJH9OJvEdmYPG9Dc0zS0-rUMnmw&q&adurl&ved=2ahUKEwiX8p-O877wAhW1heYKHVb1AcoQ0Qx6BAgCEAE/"style="color:#20575C">WHO</a>, <a href="https://www.covidresourcesindia.com/" style="color:#20575C">Covid Resources India</a>, <a href=" https://www.cowin.gov.in/" style="color:#20575C">Vaccination</a></div>       
+    </marquee>
+    </div>
+<header class="main_menu home_menu">
+  
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-12">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<a class="navbar-brand" href="index.html"> <img src="img/logo1.png" alt="logo"> </a>
+				
+<div class="collapse navbar-collapse main-menu-item justify-content-center" id="navbarSupportedContent">
+<ul class="navbar-nav align-items-center">
+<li class="nav-item active">
+<a class="nav-link" href="home.html"><strong>Home</strong></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#about"><strong>About Us</strong></a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="home.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<strong>Departments</strong>
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="Cardiology.html">Cardiology</a>
+<a class="dropdown-item" href="DentalCare.html">Dental Care</a>
+<a class="dropdown-item" href="Dermatology.html">Dermatology</a>
+<a class="dropdown-item" href="ENT.html">ENT</a>
+<a class="dropdown-item" href="Gynaecology.html">Gynaecology</a>
+<a class="dropdown-item" href="Neurology.html">Neurology</a>
+<a class="dropdown-item" href="Nephrology.html">Nephrology</a>
+<a class="dropdown-item" href="Orthopedic.html">Orthopedic</a>
+<a class="dropdown-item" href="Oncology.html">Oncology</a>
+
+</div>
+
+</li>
+<li class="nav-item"><a class="nav-link" href="bloodbank.html"><strong>Blood Bank</strong></a></li>
+<li class="nav-item"><a class="nav-link" href="pathology.html"><strong>Pathology</strong></a></li>
+<li class="nav-item"><a class="nav-link" href="#appointment_form"><strong>Appointment</strong></a></li>
+<li class="nav-item"><a class="nav-link" href="healthtips.html"><strong>Health Tips</strong></a></li>
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="home.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<strong>Contact</strong>
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="phonedirectory.html">Phone Directory</a>
+<a class="dropdown-item" href="map.html">Maps and Directions</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="home.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	<strong>Login</strong>
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="adminlogin.html">Admin</a>
+<a class="dropdown-item" href="patientlogin.html">Patient</a>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</header>
+
+<!-- Header Ends Here -->
+<!-- Cards -->
+<!-- ................................................................................................................................................................... -->
+<section class="S8">
+<h2 style="text-align: center"><b> Follow A Healthy Lifestyle </b></h2>
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-5 col-xl-5">
+<div class="S1_text">
+<div class="S1_text_inner">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class = "main">
+
+<div class="card">
+<h3 style="color:#FFFFFF; text-align: center ; font-size: 18px;" >Less Salt And Sugar </h3>
+<div class = "card-inner">
+<div class="card-front">
+<img src= "img/salt.jpg" style = "width:250px; height:220px;">
+</div>
+<div class="card-back">
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">Intake of excessive amount of salt increases the risk of high blood pressure, heart disease and stroke. Ideal Salt intake: 5g per day, equivalent to about one teaspoon.</p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">Consuming excessive amounts of sugars increases the risk of tooth decay and unhealthy weight gain. Ideal Sugar intake: 50g or about 12 teaspoons for an adult.</p>
+</div>
+</div>
+</div>
+
+<div class="card">
+<h3 style="color:#FFFFFF; text-align: center ; font-size: 18px;">Avoid Use of Alcohol</h3>
+<div class = "card-inner">
+<div class="card-front">
+<img src= "img/alcohol.jpg" style = "width:250px; height:220px;" >
+</div>
+<div class="card-back">
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">There is no safe level for drinking alcohol. Consuming alcohol can lead to health problems such as mental and behavioural disorders, including alcohol dependence, major NCDs such as liver cirrhosis, some cancers and heart diseases, as well as injuries resulting from violence and road clashes and collisions, Sudden death if you already have cardiovascular disease.</p>
+</div>
+</div>
+</div>
+
+<div class="card">
+<h3 style="color:#FFFFFF; text-align: center ; font-size: 20px;"> Yoga and Meditation </h3>
+<div class = "card-inner">
+<div class="card-front">
+<img src= "img/yoga.jpg" style = "width:250px; height:220px;" >
+</div>
+<div class="card-back">
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Yoga is a holistic and mindful practice that includes physical movements (asana), breathing (pranayama), meditation (dhyana) and relaxation (savasana). Yoga is also said to be a way of life and when practised gives all-round benefits. Meditation is a part of yoga, which deals with mental relaxation and concentration.It controls the thought process and thus relaxes mind completely. </p>
+</div>
+</div>
+</div>
+
+<div class="card">
+<h3 style="color:#FFFFFF; text-align: center ; font-size: 20px;"> Drink Enough Water </h3>
+<div class = "card-inner">
+<div class="card-front">
+<img src= "img/ht4.jpg" style = "width:250px; height:220px;" >
+</div>
+<div class="card-back">
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Helps maximize physical performance. </p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Significantly affects energy levels and brain function.</p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> May help prevent and treat headaches.</p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">May help relieve constipation.</p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">May help treat kidney stones.</p>
+</div>
+</div>
+</div>
+<div class="card">
+
+<h3 style="color:#FFFFFF; text-align: center ; font-size: 20px;"> Say No To Smoking</h3>
+<div class = "card-inner">
+<div class="card-front">
+<img src= "img/smoking.jpg" style = "width:250px; height:220px;" >
+</div>
+<div class="card-back">
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Cigarette smoke is harmful to the health of children, unborn children, family members, and coworkers.</p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Quitting smoking cuts the risk of lung cancer, heart disease, stroke, and respiratory diseases. </p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">It’s not too late to quit. Once you do, you will experience immediate and long-term health benefits.</p>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- ................................................................................................................................................................... -->
+
+<section class="S8">
+<h2 style="text-align: center"><b>Include These In Your Daily Diet</b></h2>
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-5 col-xl-5">
+<div class="S1_text">
+<div class="S1_text_inner">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class = "main">
+
+<div class="card">
+<h3 style="color:#FFFFFF; text-align: center ; font-size: 25px;"> Zinc</h3>
+<div class = "card-inner">
+<div class="card-front">
+<img src= "img/d1.jpg" style = "width:250px; height:210px;">
+</div>
+<div class="card-back">
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Zinc supports our immune system and helps our body use carbohydrates, protein, and fat for energy. It also aids in wound healing. </p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">Foods with zinc : Oysters, Grass-fed beef, Pumpkin seeds, Spinach, Organ meats, Brown rice, Wheat germ, Tempeh.</p>
+</div>
+</div>
+</div>
+
+<div class="card">
+<h3 style="color:#FFFFFF; text-align: center ; font-size: 25px;"> Magnesium </h3>
+<div class = "card-inner">
+<div class="card-front">
+<img src= "img/d2.jpeg" style = "width:250px; height:210px;" >
+</div>
+<div class="card-back">
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Magnesium is an essential nutrient, which means that we must get it from food or supplements. Magnesium is best known for being important to our bone health and energy production. It calms our nervous system and reduce stress. It ease sleep problems, regulate muscle and nerve function, balance blood sugar levels, make protein, bone, and even DNA</p>
+</div>
+</div>
+</div>
+
+<div class="card">
+<h3 style="color:#FFFFFF; text-align: center ; font-size: 25px;"> Vitamin D</h3>
+<div class = "card-inner">
+<div class="card-front">
+<img src= "img/d3.jpg" style = "width:250px; height:210px;" >
+</div>
+<div class="card-back">
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Vitamin D helps our bodies absorb calcium, which is important for bone health. Not getting enough of this vitamin can increase your likelihood of getting sick, chances of bone and back pain and hair loss.</p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">Foods with vitamin D: Fatty fish, Egg yolks, Fortified foods like milk, juice, and cereal.</p>
+</div>
+</div>
+</div>
+
+<div class="card">
+<h3 style="color:#FFFFFF; text-align: center ; font-size: 25px;">Calcium</h3>
+<div class = "card-inner">
+<div class="card-front">
+<img src= "img/d4.jpg" style = "width:250px; height:210px;" >
+</div>
+<div class="card-back">
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Calcium helps in getting strong bones and teeth. Women in particular start losing bone density earlier, getting enough calcium helps in defending this loss. </p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">Foods with calcium: Fortified cereals, Milk, cheese, and yogurt, Salty fish, Broccoli and kale, Nuts and nut butters, Beans and lentils.</p>
+</div>
+</div>
+</div>
+<div class="card">
+<h3 style="color:#FFFFFF; text-align: center ; font-size: 25px;"> Folic Acid</h3>
+<div class = "card-inner">
+<div class="card-front">
+<img src= "img/d5.jpg" style = "width:250px; height:210px;" >
+</div>
+<div class="card-back">
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Folate (or folic acid) is best known for aiding in fetus development and preventing birth defects. But if you’re growing out your nails, fighting depression, or looking to combat inflammation, this ingredient is important, too.</p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Foods with folate: Dark leafy greens, Avocado, Beans, Citrus. </p>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- ................................................................................................................................................................... -->
+
+<section class="S8">
+<h2 style="text-align: center"><b>Common Symptoms</b></h2>
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-5 col-xl-5">
+<div class="S1_text">
+<div class="S1_text_inner">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class = "main">
+
+<div class="card">
+<h3 style="color:#FFFFFF; text-align: center ; font-size: 25px;"> Anxiety </h3>
+<div class = "card-inner">
+<div class="card-front">
+<img src= "img/cs1.jpg" style = "width:250px; height:210px;">
+</div>
+<div class="card-back">
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Behavioural: Hypervigilance, Irritability or Restlessness.</p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">Cognitive: Lack of concentration, Racing thoughts or Unwanted thoughts.</p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">Whole body: Fatigue or Sweating.</p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">Also common: Excessive Worry, Fear, Insomnia or Trembling.</p>
+</div>
+</div>
+</div>
+
+<div class="card">
+<h3 style="color:#FFFFFF; text-align: center ; font-size: 25px;"> Diabetes </h3>
+<div class = "card-inner">
+<div class="card-front">
+<img src= "img/cs2.jpg" style = "width:250px; height:210px;" >
+</div>
+<div class="card-back">
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Urinate (pee) a lot, Blurry Vision.</p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Feels very thirsty, Weight Loss.</p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">Have numb or tingling hands or feet, tiredness.</p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">Very Dry skin, Have sores that heal slowly.</p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Have more infections than usual.</p>
+</div>
+</div>
+</div>
+
+<div class="card">
+<h3 style="color:#FFFFFF; text-align: center ; font-size: 25px;">Food Poisoning</h3>
+<div class = "card-inner">
+<div class="card-front">
+<img src= "img/cs3.jpg" style = "width:250px; height:210px;" >
+</div>
+<div class="card-back">
+
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Pain areas: In the Abdomen or Rectum.</p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">Whole body: Chills, Dehydration, Dizziness, Fatigue, Fever.</p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">Gastrointestinal: Bloating, Diarrhoea, Indigestion, Nausea, Vomiting, Stomach cramps. </p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">Also common: Headache, Weakness.</p>
+</div>
+</div>
+</div>
+
+<div class="card">
+<h3 style="color:#FFFFFF; text-align: center ; font-size: 25px;"> Malaria </h3>
+<div class = "card-inner">
+<div class="card-front">
+<img src= "img/cs4.jpg" style = "width:250px; height:210px;" >
+</div>
+<div class="card-back">
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Fever and Flu-like Illness, Shaking chills, Headache, Muscle aches and Tiredness. </p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Nausea and Vomiting.</p> 
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">Malaria may cause Anemia and Jaundice because of the loss of RBC. </p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Also common: Fast heart rate, Headache, Mental confusion.</p>
+</div>
+</div>
+</div>
+<div class="card">
+
+<h3 style="color:#FFFFFF; text-align: center ; font-size: 25px;"> Pneumonia </h3>
+<div class = "card-inner">
+<div class="card-front">
+<img src= "img/cs5.jpg" style = "width:250px; height:210px;" >
+</div>
+<div class="card-back">
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;"> Cough, which may produce greenish, yellow or even bloody mucus.</p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">Fever, sweating and shaking chills, Shortness of breath, Rapid, shallow breathing.</p>
+<p style="color:#FFFFFF; text-align: left ; font-size: 12px; margin-left: 10px; margin-right: 5px;">Sharp or stabbing chest pain that gets worse when you breathe deeply or cough, Loss of appetite and fatigue.</p>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- .......................................................... -->
+
+<div class="slideshow-container" >
+<h2 style="text-align:center"><b>Covid Precautions : Stop the spread that starts with you.</b></h2>
+  <!-- Full-width slides/quotes -->
+  <div class="mySlides">
+    <p style= "font-size: 20px;" >Clean your hands often. Use soap and water, or an alcohol-based hand rub.</p>
+  
+  </div>
+
+  <div class="mySlides">
+    <p style= "font-size: 20px;">Maintain a safe distance from anyone who is coughing or sneezing.</p>
+  </div>
+
+  <div class="mySlides">
+    <p style= "font-size: 20px;">Wear a mask when physical distancing is not possible.</p>
+  </div>
+  
+  <div class="mySlides">
+    <p style= "font-size: 20px;">Don’t touch your eyes, nose or mouth.</p>
+  </div>
+  
+  <div class="mySlides">
+    <p style= "font-size: 20px;">Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.</p>
+  </div>
+  
+  <div class="mySlides">
+    <p style= "font-size: 20px;">Stay home if you feel unwell.</p>
+  </div>
+  
+  <div class="mySlides">
+    <p style= "font-size: 20px;">If you have a fever, cough and difficulty breathing, seek medical attention.</p>
+  </div>
+
+ 
+</div>
+
+<br>
+<br>
+
+
+<script type="text/javascript">
+	var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+ 
+
+<div class="carousels">
+  <div class="carousel fill1" data-carousel="0"></div>
+  <div class="carousel fill2" data-carousel="1"></div>
+  <div class="carousel fill3" data-carousel="2"></div>
+</div>
+
+
+<script type="text/javascript">
+	/*
+  @method carousels
+  @description this is for label based radio navigation to change the labels style to 'active'
+ */
+const carousels = ((() => {
+  /*
+   * @description dom loaded event listener
+   */
+  window.addEventListener('DOMContentLoaded', () => {setTimeout(init,1)}, true);
+
+  /*
+   * @method init
+   * @parameter e {event}
+   * @description initiates event listeners on all carousels
+   */
+  function init(e)
+  {
+    if(document.querySelector(".carousels"))
+    {
+      let carousels = document.querySelector(".carousels");
+      carousels.addEventListener('click', clicked, false);
+      document.querySelectorAll(".carousels .carousel")[1].click();
+    }
+  }
+
+  /*
+   * @method clicked
+   * @parameter e {event}
+   * @description this is the callback from the assigned event listener binding
+   */
+  function clicked(e)
+  {
+    let carousel = e.target;
+    if(carousel.getAttribute("data-carousel")){rearrange(carousel.getAttribute("data-carousel"));}
+  }
+
+  /*
+   * @method rearrange
+   * @parameter carousel {object}
+   * @description this is the callback from the assigned event listener binding
+   */
+  function rearrange(carousel)
+  {
+    let carousels = document.querySelectorAll(".carousels .carousel");
+    for(let n = 0; n < carousels.length; n++)
+    {
+      carousels[n].classList.remove("carousel--left");
+      carousels[n].classList.remove("carousel--center");
+      carousels[n].classList.remove("carousel--right");
+    }
+    carousels[carousel].classList.add("carousel--center");
+    if(carousel == 0)
+    {
+      carousels[2].classList.add("carousel--left");
+      carousels[1].classList.add("carousel--right");
+    }
+    if(carousel == 1)
+    {
+      carousels[0].classList.add("carousel--left");
+      carousels[2].classList.add("carousel--right");
+    }
+    if(carousel == 2)
+    {
+      carousels[1].classList.add("carousel--left");
+      carousels[0].classList.add("carousel--right");
+    }
+  }
+
+  return {
+    init
+  }
+})());
+</script>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer Area-->
+<footer id="footer" class="footer-1">
+<div class="main-footer widgets-dark typo-light">
+<div class="container">
+<div class="row">
+ <div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget subscribe no-box">
+<h5 class="widget-title" style="color: white">Udaipur City Hospital<span></span></h5>
+<p style="color:#EAA335">UCH is a leading multispecialty hospital, considered as the best hospital in Udaipur, India.
+ It has been a beacon of light for the suffering for over 50 years.</p>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget subscribe no-box">
+<h5 class="widget-title" style="color: white">Address<span></span></h5>
+<p style="color:#EAA335">Hiranmagri Extension, Manwakhera NH-8 Bypass, Near Eklingpura Chouraha, Rajasthan 313001 </p>
+</div>
+</div>
+<div class="col-xs-12 col-sm-3 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title" style="color: white">Quick Links<span></span></h5>
+<ul class="thumbnail-widget">
+<li>
+<li>
+<div class="thumb-content"><a style="color: #EAA335" href="#.">Blood Bank</a></div> 
+</li>
+<li>
+<div class="thumb-content"><a style="color: #EAA335" href="pathology.html">Pathology</a></div> 
+</li>
+<li>
+<div class="thumb-content"><a style="color: #EAA335" href="healthtips.html">Health Tips</a></div>  
+</li>
+<li>
+</ul>
+</div>
+</div>
+<div class="col-xs-12 col-sm-3 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title" style="color: white">Contact Us<span></span></h5>
+<p><a  style="color: #EAA335" href="mailto:info@uch.com" title="glorythemes">info@domain.com</a><br>
+<a  style="color: #EAA335" href="" title="glorythemes">+91-294-2500000-06</a><br>
+<a  style="color: #EAA335" href="" title="glorythemes">+91-294-2500007</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<footer>
+ <p style="color:white;" >
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </p>
+</footer>
+<!-- Footer Area ends here-->
+
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,282 @@
+<!doctype html>
+<html>
+<head>
+  
+<title>Phone Directory</title>
+
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="healthtips.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-database.js"></script>
+</head>
+<body>
+<br>
+<div class = "marque">
+    <marquee class="marq" bgcolor = "white" direction = "left" loop="" vspace="10px">
+        <div class="covid">Covid 19 Resources: <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwi2-K6O877wAhUZJCsKHYHiDggYABAAGgJzZg&ae=2&sig=AOD64_0gJH9OJvEdmYPG9Dc0zS0-rUMnmw&q&adurl&ved=2ahUKEwiX8p-O877wAhW1heYKHVb1AcoQ0Qx6BAgCEAE/"style="color:#20575C">WHO</a>, <a href="https://www.covidresourcesindia.com/" style="color:#20575C">Covid Resources India</a>, <a href=" https://www.cowin.gov.in/" style="color:#20575C">Vaccination</a></div>       
+    </marquee>
+    </div>
+<header class="main_menu home_menu">
+  
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-12">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="index.html"> <img src="img/logo1.png" alt="logo"> </a>
+        
+<div class="collapse navbar-collapse main-menu-item justify-content-center" id="navbarSupportedContent">
+<ul class="navbar-nav align-items-center">
+<li class="nav-item active">
+<a class="nav-link" href="home.html"><strong>Home</strong></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="home.html#about"><strong>About Us</strong></a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="home.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<strong>Departments</strong>
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="Cardiology.html">Cardiology</a>
+<a class="dropdown-item" href="DentalCare.html">Dental Care</a>
+<a class="dropdown-item" href="Dermatology.html">Dermatology</a>
+<a class="dropdown-item" href="ENT.html">ENT</a>
+<a class="dropdown-item" href="Gynaecology.html">Gynaecology</a>
+<a class="dropdown-item" href="Neurology.html">Neurology</a>
+<a class="dropdown-item" href="Nephrology.html">Nephrology</a>
+<a class="dropdown-item" href="Orthopedic.html">Orthopedic</a>
+<a class="dropdown-item" href="Oncology.html">Oncology</a>
+
+</div>
+
+</li>
+<li class="nav-item"><a class="nav-link" href="bloodbank.html"><strong>Blood Bank</strong></a></li>
+<li class="nav-item"><a class="nav-link" href="pathology.html"><strong>Pathology</strong></a></li>
+<li class="nav-item"><a class="nav-link" href="home.html#appointment_form"><strong>Appointment</strong></a></li>
+<li class="nav-item"><a class="nav-link" href="healthtips.html"><strong>Health Tips</strong></a></li>
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="home.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<strong>Contact</strong>
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="phonedirectory.html">Phone Directory</a>
+<a class="dropdown-item" href="map.html">Maps and Directions</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="home.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <strong>Login</strong>
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="adminlogin.html">Admin</a>
+<a class="dropdown-item" href="patientlogin.html">Patient</a>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</header>
+
+<br>
+
+<h2>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPhone Directory</h2>
+
+
+<!--Directory-->
+<div class="mlisting">
+<button class="collapsible_ml">Departments</button>
+<div class="content">
+	<h5>Contact Various Departments</h5>
+	<ul class="map_listing"> 
+<li><span>1)</span><p>Cardiac Sciences<br><a href="tel:912242696898">+91 (22) 4269 6898</a> <br>10 am to 6 pm </p></li>
+<li><span>2)</span><p>General OPD<br><a href="tel:+912242699895">+91 (22) 4269 9895</a> <br>9 am to 5 pm </p></li>
+<li><span>2)</span><p>General Paediatrics<br><a href="tel:912242696898">+91 (22) 4269 6898</a> <br>10 am to 6 pm </p></li>
+<li><span>4)</span><p>Ophthalmology<br><a href="tel:912242696898">+91 (22) 4269 6898</a> <br>10 am to 6 pm </p></li>
+<li><span>5)</span><p>Radiation Oncology<br><a href="tel:912242696898">+91 (22) 4269 6898</a> <br>10 am to 6 pm </p></li>
+<li><span>6)</span><p>Neurology<br><a href="tel:912242696898">+91 (22) 4269 6898</a> <br>10 am to 6 pm </p></li>
+<li><span>7)</span><p>Nephrology<br><a href="tel:912242696898">+91 (22) 4269 6898</a> <br>10 am to 6 pm </p></li>
+<li><span>8)</span><p>ENT-Sleep-Voice<br><a href="tel:912242696898">+91 (22) 4269 6898</a> <br>10 am to 6 pm </p></li>
+ </ul>
+ </div>
+
+<button class="collapsible_ml">Diagnostic Appointments</button>
+<div class="content">
+	<h5>Book an Appointment</h5>
+  <ul class="map_listing"> 
+<li><span>1)</span><p>Cardiac CheckUp<br><a href="tel:912242696898">+91 (22) 4269 6898</a> <br>9 am to 5 pm </p></li>
+<li><span>2)</span><p>PET Scan<br><a href="tel:+912242699895">+91 (22) 4269 9895</a> <br>9 am to 5 pm </p></li>
+<li><span>2)</span><p>Blood Work<br><a href="tel:912242696898">+91 (22) 4269 6898</a> <br>9 am to 5 pm </p></li>
+<li><span>4)</span><p>X-Ray/Sonography<br><a href="tel:912242696898">+91 (22) 4269 6898</a> <br>9 am to 5 pm </p></li>
+<li><span>5)</span><p>Audiometry<br><a href="tel:912242696898">+91 (22) 4269 6898</a> <br>9 am to 5 pm </p></li>
+<li><span>6)</span><p>Neurology<br><a href="tel:912242696898">+91 (22) 4269 9895</a> <br>9 am to 5 pm </p></li>
+ </ul>
+</div>
+
+<button class="collapsible_ml">Secratarial Office of Doctors For Appointments</button>
+<div class="content">
+	<h5>Book an Appointment</h5>
+  <ul class="map_listing"> 
+<li><span>6)</span><p>Cardiac Sciences: Dr. Mahesh Dave<br><a href="tel:912242696898">+91 (22) 4269 6810
+</a> <br>9 am to 5 pm </p></li>
+<li><span>6)</span><p>Bone & Joint: Dr. Deepika Mandot<br><a href="tel:912242696898">+91 (22) 4269 6898</a> <br>9 am to 5 pm </p></li>
+<li><span>6)</span><p>Cancer: Dr. Sachin Jain<br><a href="tel:912242696898">+91 (22) 4269 6898</a> <br>9 am to 5 pm </p></li>
+<li><span>6)</span><p>Brain & Nervous System: Dr. Mohit Bhatt<br><a href="tel:912242696898">++91 (22) 4269 9983</a> <br>9 am to 5 pm </p></li>
+ </ul>
+</div>
+</div>
+<script type="text/javascript">
+var coll = document.getElementsByClassName("collapsible_ml");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+<!--Directory ends here -->
+
+<br>
+<br>
+
+
+<div class="row1">
+  <div class="column1">
+    <div class="card1">
+    	<img src="img/ambulance.gif" >
+      <h3>Ambulance</h3>
+      <p><a href="tel:912242699999">+91 (22) 4269 9999</a></li></p>
+      
+    </div>
+  </div>
+
+  <div class="column1">
+    <div class="card1">
+    	<img src="img/helpline.gif" >
+      <br><br>
+      <h3>24 Hours Toll Free Number</h3>
+       <p><a href="tel:912242699999">+91 (22) 4269 9999</a></li></p>
+    </div>
+  </div>
+  
+  <div class="column1">
+    <div class="card1">
+    	<img src="img/blood.gif" >
+      <br><br><br>
+      <h3>Blood Bank</h3>
+       <p><a href="tel:+91(22)4269 9896">++91 (22) 4269 9896</a></li></p>
+    </div>
+  </div>
+  
+  <div class="column1">
+    <div class="card1">
+    	<img src="img/admit.gif" >
+      <br><br>
+      <h3>For Planned Admission</h3>
+       <p><a href="tel:912242699999">+91 (22) 4269 9999</a></li></p>
+    </div>
+  </div>
+</div>
+
+
+
+<br>
+<br>
+<div class="row1">
+	 
+<div class="banner_item">
+	<div class="col-sm">
+<div class="single_item">
+<img src="img/icon/cardio.png" alt="">
+<h5>Care</h5>
+</div>
+</div>
+<div class="col-sm">
+<div class="single_item">
+<img src="img/icon/compassion.png" alt="">
+<h5>Compassion</h5>
+</div>
+</div>
+<div class="col-sm">
+<div class="single_item">
+<img src="img/icon/hospital.png" alt="">
+<h5>Integrity</h5>
+</div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<!-- Footer Area-->
+<footer id="footer" class="footer-1">
+<div class="main-footer widgets-dark typo-light">
+<div class="container">
+<div class="row">
+ <div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget subscribe no-box">
+<h5 class="widget-title" style="color: white">Udaipur City Hospital<span></span></h5>
+<p style="color:#EAA335">UCH is a leading multispecialty hospital, considered as the best hospital in Udaipur, India.
+ It has been a beacon of light for the suffering for over 50 years.</p>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget subscribe no-box">
+<h5 class="widget-title" style="color: white">Address<span></span></h5>
+<p style="color:#EAA335">Hiranmagri Extension, Manwakhera NH-8 Bypass, Near Eklingpura Chouraha, Rajasthan 313001 </p>
+</div>
+</div>
+<div class="col-xs-12 col-sm-3 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title" style="color: white">Quick Links<span></span></h5>
+<ul class="thumbnail-widget">
+<li>
+<li>
+<div class="thumb-content"><a style="color: #EAA335"  href="#.">Blood Bank</a></div> 
+</li>
+<li>
+<div class="thumb-content"><a style="color: #EAA335" href="pathology.html">Pathology</a></div> 
+</li>
+<li>
+<div class="thumb-content"><a style="color: #EAA335" href="healthtips.html">Health Tips</a></div>  
+</li>
+<li>
+</ul>
+</div>
+</div>
+<div class="col-xs-12 col-sm-3 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title" style="color: white">Contact Us<span></span></h5><p><a  style="color: #EAA335" href="mailto:info@uch.com" title="glorythemes">info@domain.com</a><br>
+<a  style="color: #EAA335" href="" title="glorythemes">+91-294-2500000-06</a><br>
+<a  style="color: #EAA335" href="" title="glorythemes">+91-294-2500007</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<footer>
+ <p style="color:white;" >
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </p>
+</footer>
+<!-- Footer Area ends here-->
+
+
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

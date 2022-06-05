@@ -1,0 +1,477 @@
+<!doctype html>
+<html>
+<head>
+	
+<title>Udaipur City Hospital</title>
+
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="style.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-database.js"></script>
+</head>
+<body>
+<br>
+<div class = "marque">
+    <marquee class="marq" bgcolor = "white" direction = "left" loop="" vspace="10px">
+        <div class="covid">Covid 19 Resources: <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwi2-K6O877wAhUZJCsKHYHiDggYABAAGgJzZg&ae=2&sig=AOD64_0gJH9OJvEdmYPG9Dc0zS0-rUMnmw&q&adurl&ved=2ahUKEwiX8p-O877wAhW1heYKHVb1AcoQ0Qx6BAgCEAE/"style="color:#20575C">WHO</a>, <a href="https://www.covidresourcesindia.com/" style="color:#20575C">Covid Resources India</a>, <a href=" https://www.cowin.gov.in/" style="color:#20575C">Vaccination</a></div>       
+    </marquee>
+    </div>
+<header class="main_menu home_menu">
+  
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-12">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<a class="navbar-brand" href="index.html"> <img src="img/logo1.png" alt="logo"> </a>
+				
+<div class="collapse navbar-collapse main-menu-item justify-content-center" id="navbarSupportedContent">
+<ul class="navbar-nav align-items-center">
+<li class="nav-item active">
+<a class="nav-link" href="home.html"><strong>Home</strong></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#about"><strong>About Us</strong></a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="home.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<strong>Departments</strong>
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="Cardiology.html">Cardiology</a>
+<a class="dropdown-item" href="DentalCare.html">Dental Care</a>
+<a class="dropdown-item" href="Dermatology.html">Dermatology</a>
+<a class="dropdown-item" href="ENT.html">ENT</a>
+<a class="dropdown-item" href="Gynaecology.html">Gynaecology</a>
+<a class="dropdown-item" href="Neurology.html">Neurology</a>
+<a class="dropdown-item" href="Nephrology.html">Nephrology</a>
+<a class="dropdown-item" href="Orthopedic.html">Orthopedic</a>
+<a class="dropdown-item" href="Oncology.html">Oncology</a>
+
+</div>
+
+</li>
+<li class="nav-item"><a class="nav-link" href="bloodbank.html"><strong>Blood Bank</strong></a></li>
+<li class="nav-item"><a class="nav-link" href="pathology.html"><strong>Pathology</strong></a></li>
+<li class="nav-item"><a class="nav-link" href="#appointment_form"><strong>Appointment</strong></a></li>
+<li class="nav-item"><a class="nav-link" href="healthtips.html"><strong>Health Tips</strong></a></li>
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="home.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<strong>Contact</strong>
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="phonedirectory.html">Phone Directory</a>
+<a class="dropdown-item" href="map.html">Maps and Directions</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="home.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	<strong>Login</strong>
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<a class="dropdown-item" href="adminlogin.html">Admin</a>
+<a class="dropdown-item" href="patientlogin.html">Patient</a>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</header>
+
+<!-- Section 1-->
+<section class="S1">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-5 col-xl-5">
+<div class="S1_text">
+<div class="S1_text_inner">
+<h4 style="margin-top: 15px">Welcome to</h4>
+<br>
+<h1>Udaipur City Hospital</h1>
+<br>
+<h3 style="margin-bottom: -20px"><b style="color:#EAA335">Our teams lead the way to better medicine.</b></h3>
+<br>
+<p style="margin-left: 10px"> Now more than ever better medicine matters. Udaipur City  Hospital is ranked as the number one hospital in Udaipur. We have  extraordinary teams and provide highest quality of care. We have  an enduring commitment to a healthier Udaipur.</p>
+			
+</div>
+</div>
+</div>
+<div class="S1_img">
+<img src="img/Hospital.gif" alt="" align="right"  width="600" height="400">
+</div>
+</div>
+</div>
+</section>
+<!-- Section 1 ends here-->
+<hr>
+<!-- Section 2-->
+<section class="S2_part" id="about" >
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-xl-8">
+<div class="section_tittle text-center">
+<h2><b>About Us</b></h2>
+</div>
+</div>
+</div>
+<div class="row justify-content-between align-items-center">
+<div class="col-lg-3 col-sm-12">
+ <div class="single_S2">
+<div class="single_S2_part">
+	<div class="boxed">
+		<i></i>
+<span class="single_S2_icon"><img src="img/icon/mask1.png" alt=""></span>
+<h3 style="color: black"><b>Covid-19 Resource Centre</b></h3>
+<p style="color: white" >Now more than ever, better medicine matters. Get the latest information on how COVID-19 may affect you, including vaccination, testing, symptoms, treatment and current visitor policies.</p>
+</div>
+</div>
+</div>
+<div class="single_S2">
+<div class="single_S2_part">
+	<div class="boxed">
+		<i></i>
+<span class="single_S2_icon"><img src="img/icon/vitamin.png" alt=""></span>
+<h3 style="color: black"><b>&nbsp&nbsp&nbsp&nbspEmergency Medicine</b></h3>
+<p style="color: white">UCH board-certified emergency specialists create individualized diagnostic plans to ensure the highest quality of care.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-sm-12">
+<div class="single_S2_img">
+<img src="img/service.png" alt="">
+</div>
+</div>
+
+<div class="col-lg-3 col-sm-12">
+	
+<div class="single_S2">
+<div class="single_S2_part">
+	<div class="boxed">
+		<i></i>
+<span class="single_S2_icon"><img src="img/icon/doctor.png" alt=""></span>
+<h3 style="color: black"><b> &nbsp&nbsp&nbsp&nbsp Extraordinary Team </b></h3>   
+<p style="color: white">Extraordinary conditions require extraordinary teams. UCH brings together teams from different specialties to solve the toughest cases.</p><br><br>
+</div>
+</div>
+</div>
+<div class="single_S2">
+<div class="single_S2_part">
+	<div class="boxed">
+		<i></i>
+<span class="single_S2_icon"><img src="img/icon/syringe.png" alt=""></span>
+<h3 style="color: black"><b>Therapies and Drug Trails</b></h3>
+<p style="color: white">Through science and technology, UCH is dedicated to uncovering new treatments for a wide range of conditions.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Section 2 ends here-->
+<hr>
+<!-- Section 3-->
+<section class="S3 section_padding">
+<div class="container">
+<div class="row justify-content-center text-center">
+<div class="col-xl-12">
+ <div class="department_content">
+<div class="row justify-content-center">
+<div class="col-xl-12 ">
+<h2>Our Departments</h2>
+<div class="row">
+<div class="col-sm-4  ">
+<div class="single_S3" data-hover="Cardiology is the study and treatment of disorders of the heart and the blood vessels.">
+<span class="S3_icon"><img src="img/icon/cardio.png" alt=""></span>
+<h4>Cardiology</h4>
+</div>
+</div>
+<div class="col-sm-4 ">
+<div class="single_S3" data-hover="Oncology is a branch of medicine that deals with the prevention, diagnosis, and treatment of cancer.">
+<span class="S3_icon"><img src="img/icon/cancer-cell.png" alt=""></span>
+<h4>Oncology</h4>
+</div>
+</div>
+<div class="col-sm-4 ">
+<div class="single_S3" data-hover="Dermatology is the branch of medicine dealing with the skin. It is a speciality with both medical and surgical aspects.">
+<span class="S3_icon"><img src="img/icon/beauty.png" alt=""></span>
+<h4>Dermatology</h4>
+</div>
+</div>
+<div class="col-sm-4 ">
+<div class="single_S3" data-hover="Otolaryngology is a medical specialty which is focused on the ears, nose, and throat." >
+<span class="S3_icon"><img src="img/icon/sore-throat.png" alt=""></span>
+<h4>ENT</h4>
+</div>
+</div>
+<div class="col-sm-4 ">
+<div class="single_S3" data-hover="Gynaecology is the medical practice dealing with the health of the female reproductive system.">
+<span class="S3_icon"><img src="img/icon/female.png" alt=""></span>
+<h4>Gynaecology</h4>
+</div>
+</div>
+<div class="col-sm-4 ">
+<div class="single_S3" data-hover="Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system.">
+<span class="S3_icon"><img src="img/icon/brainstorm.png" alt=""></span>
+<h4>Neurology</h4>
+</div>
+</div>
+<div class="col-sm-4 ">
+<div class="single_S3" data-hover="Nephrology is a specialty of internal medicine that focuses on the treatment of diseases that affect the kidneys." >
+<span class="S3_icon"><img src="img/icon/kidney.png" alt=""></span>
+<h4>Nephrology</h4>
+</div>
+</div>
+<div class="col-sm-4 ">
+<div class="single_S3" data-hover="Orthopaedic surgery or orthopaedics, is the branch of surgery concerned with conditions involving the musculoskeletal system.">
+<span class="S3_icon"><img src="img/icon/bone.png" alt=""></span>
+<h4>Orthopedic</h4>
+</div>
+</div>
+<div class="col-sm-4 ">
+<div class="single_S3" data-hover="It is concerned with the prevention and treatment of oral disease, including diseases of the teeth and supporting structures and diseases of the soft tissues of the mouth.">
+<span class="S3_icon"><img src="img/icon/tooth.png" alt=""></span>
+<h4>Dental Care</h4>
+</div>
+</div>
+<div class="col-sm-4 ">
+<div class="single_S3" data-hover="ETC is an exclusive center committed to provide immediate treatment in any emergency. All the Emergency Medicine doctors, trauma surgeons and support staffs are trained to deal with cases from minor injuries to patients requiring advanced trauma care.">
+<span class="S3_icon"><img src="img/icon/ambulance.png" alt=""></span>
+<h4>Emergency Trauma Center</h4>
+</div>
+</div>
+<div class="col-sm-4 ">
+<div class="single_S3" data-hover="Pediatrics is the branch of medicine that involves the medical care of infants, children, and adolescents.">
+<span class="S3_icon"><img src="img/icon/pediatrics.png" alt=""></span>
+<h4>Pediatrics</h4>
+</div>
+</div>
+<div class="col-sm-4 ">
+<div class="single_S3" data-hover="">
+<span class="S3_icon"><img src="img/icon/doctor.png" alt=""></span>
+<h4>Others</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3 ends here-->
+<hr>
+<!-- Section 4--><!-- Appointment form-->
+<section id="appoint">
+<div class="container">
+<div class="row justify-content-center text-center">
+<div class="col-xl-12">
+ <div class="department_content">
+<div class="row justify-content-center">
+<div class="col-xl-12 ">
+    <h2 id="appointment_form"><b>Book an Appointment</b></h2>
+	<br>
+    <div class="wrapper animated bounceInUp">
+      <div class="company-info">
+	  <img src="img/w.gif">
+        
+      </div>
+      <div class="contact">
+        <h3>Patient Details</h3>
+        <form id="appointmentform">
+          <p>
+            <label>Name</label>
+            <input type="text" name="name" id="name" required>
+          </p>
+          <p>
+            <label>Email Address</label>
+            <input type="email" name="email" id="email">
+          </p>
+          <p>
+            <label>Phone Number</label>
+            <input type="text" name="phone" id="phone" required>
+          </p>
+		  <p>
+            <label>Appointment Date</label>
+            <input type="date" name="appointmentdate" id="appointmentdate">
+          </p>
+		  <p>
+		  
+            <label>Select Department</label>
+			<br>
+            <select name="docs" id="dept">
+			<option value="Cardiology">Cardiology</option>
+			<option value="Dental Care">Dental Care</option>
+			<option value="Dermatology">Dermatology</option>
+			<option value="Gynaecology">Gynaecology</option>
+			<option value="Neurology">Neurology</option>
+			<option value="Nephrology">Nephrology</option>
+			<option value="Orthopedic">Orthopedic</option>
+			<option value="Oncology">Oncology</option>
+			<option value="Others">Others</option>
+			</select>
+          </p>
+		  <p>
+		  
+            <label>Select Doctor</label>
+			<br>
+            <select name="docs" id="docs">
+			<option value="Dr. Mahesh Dave">Dr. Mahesh Dave</option>
+			<option value="Dr. Deepika Mandot">Dr. Deepika Mandot</option>
+			<option value="Dr. Nirbhay Verma">Dr. Nirbhay Verma</option>
+			<option value="Dr. Lalit Gupta">Dr. Lalit Gupta</option>
+			<option value="Dr. S.K. Kaushik">Dr. S.K. Kaushik</option>
+			<option value="Dr. Sandeep Bhatnagar">Dr. Sandeep Bhatnagar</option>
+			<option value="Dr. Gaurav Wadhawan">Dr. Gaurav Wadhawan</option>
+			<option value="Dr. Arun Gupta">Dr. Arun Gupta</option>
+			<option value="Dr. Tarun Mathur">Dr. Tarun Mathur</option>
+			<option value="Dr. Sangeeta Singh">Dr. Sangeeta Singh</option>
+			</select>
+          </p>		  
+          <p class="full">
+            <label>Message</label>
+            <textarea name="message" rows="5" id="message"></textarea>
+          </p>
+		  <div class="alert">Your appointment has been booked successfully!</div>
+		  <br>
+		  <br>
+          <p class="full">
+            <button type="submit">Submit</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  
+<!-- Section 4 ends here-->
+<hr>
+<!-- Section 5-->
+<!-- Section 5 ends here-->
+
+
+
+<!-- Slideshow container -->
+<br>
+<br>
+<div class="slideshow-container" >
+<h2 style="text-align:center"><b>Patient Testimonials</b></h2>
+    <div class="mySlides">
+    <q>On behalf of my wife, who was a patient in your hospital, I humbly submit my sincere gratitude to the management and staff of UCH, especially to your outstanding nurses and PCAs. They have been outstandingly helpful and provided a high quality of service, care and comfort to my wife. Thank you.</q>
+    <p class="author">- XYZ</p>
+  </div>
+
+  <div class="mySlides">
+    <q>We would like to let you know how much we appreciate the special care our daughter was given by the doctors and staff at your hospital. Our baby’s physician was professional, kind, understanding, and her treatment was “right on.” Your organization should be proud to have such kind hearted people. They made sure that my daughter’s hospitalization was very pleasant.</q>
+    <p class="author">- LMN</p>
+  </div>
+
+  <div class="mySlides">
+    <q>I was recently cared for at UCH following a heart attack while at JFK. I just wanted to say a few words about the exceptional care I received in the UCH Hospital Cardiac Care Unit and the MICU. All of the doctors and nurses were friendly, pleasant, kind, thorough, conscientious and professional. I am happy to have been in their care.</q>
+    <p class="author">- PQR</p>
+  </div>
+<div class="mySlides">
+    <q>I recently had a nine day stay at UCH and I wanted to express how impressed I was with the level of care I received from everyone I encountered. The Trauma Center saved my life! I found it amazing and I am grateful that it services my community.</q>
+    <p class="author">- ABC</p>
+  </div>
+ 
+</div>
+<br>
+<br>
+
+
+<script type="text/javascript">
+	var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+
+</script>
+
+
+<!-- Slideshow container ends here -->
+
+
+
+
+<!-- Footer Area-->
+<footer id="footer" class="footer-1">
+<div class="main-footer widgets-dark typo-light">
+<div class="container">
+<div class="row">
+ <div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget subscribe no-box">
+<h5 class="widget-title" style="color: white">Udaipur City Hospital<span></span></h5>
+<p style="color:#EAA335">UCH is a leading multispecialty hospital, considered as the best hospital in Udaipur, India.
+ It has been a beacon of light for the suffering for over 50 years.</p>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="widget subscribe no-box">
+<h5 class="widget-title" style="color: white">Address<span></span></h5>
+<p style="color:#EAA335">Hiranmagri Extension, Manwakhera NH-8 Bypass, Near Eklingpura Chouraha, Rajasthan 313001 </p>
+</div>
+</div>
+<div class="col-xs-12 col-sm-3 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title" style="color: white">Quick Links<span></span></h5>
+<ul class="thumbnail-widget">
+<li>
+<li>
+<div class="thumb-content"><a style="color: #EAA335"  href="#.">Blood Bank</a></div> 
+</li>
+<li>
+<div class="thumb-content"><a style="color: #EAA335" href="pathology.html">Pathology</a></div> 
+</li>
+<li>
+<div class="thumb-content"><a style="color: #EAA335" href="healthtips.html">Health Tips</a></div>  
+</li>
+<li>
+</ul>
+</div>
+</div>
+<div class="col-xs-12 col-sm-3 col-md-3">
+<div class="widget no-box">
+<h5 class="widget-title" style="color: white">Contact Us<span></span></h5>
+<p><a  style="color: #EAA335" href="mailto:info@uch.com" title="glorythemes">info@domain.com</a><br>
+<a  style="color: #EAA335" href="" title="glorythemes">+91-294-2500000-06</a><br>
+<a  style="color: #EAA335" href="" title="glorythemes">+91-294-2500007</a></p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<p style="color:white;" >
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </p>
+</footer>
+
+<!-- Footer Area ends here-->
+
+
+<script src="main.js"></script>
+</body>
+</html>
